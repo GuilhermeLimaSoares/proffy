@@ -46,9 +46,15 @@ body, input, button, textarea {
     color: var(--color-text-base);
 }
 
-.container {
+/* .container {
     width: 90vw;
     max-width: 700px;
+} */
+@media (max-width: 700px){
+    .container {
+        width: 90vw;
+        max-width: 700px;
+    }
 }
 
 @media (min-width: 700px){
